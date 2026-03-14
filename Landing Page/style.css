@@ -1,0 +1,140 @@
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Segoe UI;
+}
+
+body{
+background:#f4f6fb;
+}
+
+/* Navbar */
+
+header{
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:20px 80px;
+position:absolute;
+width:100%;
+color:white;
+}
+
+.logo{
+font-size:24px;
+font-weight:bold;
+}
+
+nav ul{
+display:flex;
+list-style:none;
+gap:30px;
+}
+
+nav ul li{
+cursor:pointer;
+transition:0.3s;
+}
+
+nav ul li:hover{
+color:#ff7a18;
+}
+
+/* Hero Section */
+
+.hero{
+height:100vh;
+
+background:
+linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.6)),
+url("bg.jpg");
+
+background-size:cover;
+background-position:center;
+
+display:flex;
+align-items:center;
+padding-left:80px;
+
+color:white;
+}
+
+.content{
+max-width:500px;
+}
+
+.content h1{
+font-size:55px;
+margin-bottom:20px;
+}
+
+.content p{
+line-height:1.6;
+margin-bottom:30px;
+}
+
+/* Buttons */
+
+.buttons{
+display:flex;
+gap:20px;
+}
+
+.btn1{
+padding:12px 28px;
+background:#ff7a18;
+border:none;
+color:white;
+cursor:pointer;
+border-radius:6px;
+}
+
+.btn2{
+padding:12px 28px;
+background:transparent;
+border:2px solid white;
+color:white;
+cursor:pointer;
+border-radius:6px;
+}
+
+/* Services */
+
+.services{
+padding:80px;
+text-align:center;
+}
+
+.services h2{
+margin-bottom:40px;
+font-size:32px;
+}
+
+.cards{
+display:flex;
+justify-content:center;
+gap:30px;
+}
+
+.card{
+background:white;
+padding:30px;
+width:250px;
+border-radius:10px;
+box-shadow:0 5px 15px rgba(0,0,0,0.1);
+transition:0.3s;
+}
+
+.card:hover{
+transform:translateY(-10px);
+}
+
+/* Footer */
+
+footer{
+background:#111;
+color:white;
+text-align:center;
+padding:20px;
+}
